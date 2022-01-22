@@ -10,7 +10,7 @@ int main()
     int cont = 0;
     int ii = 0;
     
-    while(cont < n || ii >= V.size()) {
+    while(cont < n && ii >= V.size()) {
         if(V[V.size()-1-ii] + cont > n) {
             ii++;
         } else {
